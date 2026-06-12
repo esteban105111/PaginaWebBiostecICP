@@ -671,7 +671,14 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3.2rem, 20vw, 4.8rem);
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(2.85rem, 15.5vw, 3.85rem);
+    line-height: 1;
+  }
+
+  h1 span {
+    max-width: 100%;
   }
 
   .hero-visual,
